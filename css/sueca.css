@@ -1,0 +1,66 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #f2eeea;
+}
+
+
+.container {
+	position: relative;
+   	min-height: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+
+.logo {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.logo img {
+	margin: 50px;
+
+}
+
+
+
+h2 {
+	font-family: Droid Serif;
+	font-weight: bold;
+	color: #e24936;
+	font-size: 1.875em;
+
+}
+
+p {
+	line-height: 24px;
+}
+
+.description h2, .description p {
+	margin: 10px;
+}
+
+.box {
+	width: 400px;
+	display: flex;
+	margin: 20px 0px;
+	box-sizing: border-box;
+
+
+}
+
+.list{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.description {
+	font-family: Raleway;
+	color: #5f5e5d;
+}
